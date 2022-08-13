@@ -64,7 +64,6 @@ void main()
                     }
                     break;
         }
-       
     }
     if(state==3 || state==4)
         printf("\n\nString accepted\n\n");
