@@ -5,11 +5,8 @@ void main()
     char token,input[20];
     printf("Enter input string \t :");
     scanf("%s",input);
-    //printf("Given string is : %s");
-
     while((token=input[i++])!='\0')
     {
-       // printf("current token : %c \n",token);
         switch(state)
         {
             case 0: if(token=='a')
