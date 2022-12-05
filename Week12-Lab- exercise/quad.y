@@ -8,18 +8,14 @@ char arg1[10];
 char arg2[10];
 char result[10];
 }QUAD[30];
-
 int i=0,j;
 %}
-
 %union
 {
 char exp[10];
 }
-
 %token <exp> VAR
 %type <exp> S E T F
-
 %%
 S: E	{	printf("\n THere are %d quadrupls n",i);
 		printf("\n List of Quadruples are: \n");
